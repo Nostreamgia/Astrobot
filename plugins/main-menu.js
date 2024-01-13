@@ -82,15 +82,8 @@ import {
   ◈ .toav
   ◈ .bot
   ◈ .character @tag
-  ◈ .dare
-  ◈ .flirt
-  ◈ .gay @user
-  ◈ .pickupline
   ◈ .question
   ◈ .shayari
-  ◈ .ship
-  ◈ .yomamajoke
-  ◈ .truth
   ◈ .waste @user
   ◈ .image
   ◈ .meme
@@ -99,25 +92,10 @@ import {
   
   let reactmenu = `
   ✦ ───『 *reaction* 』─── ⚝
-  ◈ .bully @tag
-  ◈ .cuddle @tag
-  ◈ .cry @tag
   ◈ .hug @tag
-  ◈ .awoo @tag
-  ◈ .kiss @tag
-  ◈ .lick @tag
-  ◈ .pat @tag
-  ◈ .smug @tag
-  ◈ .bonk @tag
-  ◈ .yeet @tag
-  ◈ .blush @tag
   ◈ .smile @tag
   ◈ .wave @tag
   ◈ .highfive @tag
-  ◈ .handhold @tag
-  ◈ .nom @tag
-  ◈ .bite @tag
-  ◈ .glomp @tag
   ◈ .slap @tag
   ◈ .kill @tag
   ◈ .happy @tag
@@ -129,10 +107,6 @@ import {
   
   let dlmenu = `
   ✦ ───『 *downloader* 』─── ⚝
-  ◈ .facebook <url>
-  ◈ .gdrive 🅟
-  ◈ .gitclone <url>
-  ◈ .igstalk
   ◈ .instagram
   ◈ .mediafire <url>
   ◈ .mega
@@ -162,33 +136,8 @@ import {
   ◈ .Maths <modes>
   ◈ .ppt <rock/paper/scissors>
   ◈ .tictactoe <tag number>
-  ╰──────────⳹`
-  let logomenu = `
-  ✦ ───『 *maker* 』─── ⚝
-  ◈ .blur
-  ◈ .difuminar2
-  ◈ .hornycard
-  ◈ .hornylicense
-  ◈ .gfx1
-  ◈ .gfx2
-  ◈ .gfx3
-  ◈ .gfx4
-  ◈ .gfx5
-  ◈ .gfx6
-  ◈ .gfx7
-  ◈ .gfx8
-  ◈ .gfx9
-  ◈ .gfx10
-  ◈ .gfx11
-  ◈ .gfx12
-  ◈ .simpcard
-  ◈ .itssostupid
-  ◈ .iss
-  ◈ .stupid
-  ◈ .tweet <comment>
-  ◈ .lolicon
-  ◈ .ytcomment <comment>
-  ╰──────────⳹`
+  more are there (not mentioned)  
+╰──────────⳹`
   
   let stickermenu = `
   ✦ ───『 *sticker* 』─── ⚝
@@ -263,130 +212,10 @@ import {
   ◈ .anime
   ◈ .akira
   ◈ .akiyama
-  ◈ .anna
-  ◈ .asuna
-  ◈ .ayuzawa
-  ◈ .boruto
-  ◈ .chiho
-  ◈ .chitoge
-  ◈ .deidara
-  ◈ .erza
-  ◈ .elaina
-  ◈ .eba
-  ◈ .emilia
-  ◈ .hestia
-  ◈ .hinata
-  ◈ .inori
-  ◈ .isuzu
-  ◈ .itachi
-  ◈ .itori
-  ◈ .kaga
-  ◈ .kagura
-  ◈ .kaori
-  ◈ .keneki
-  ◈ .kotori
-  ◈ .kurumi
-  ◈ .madara
-  ◈ .mikasa
-  ◈ .miku
-  ◈ .minato
-  ◈ .naruto
-  ◈ .nezuko
-  ◈ .sagiri
-  ◈ .sasuke
-  ◈ .sakura
-  ◈ .manhwa
-  ◈ .waifu
-  ◈ .neko
-  ◈ .zerotwo
-  ◈ .loli
   ◈ .pokedex <pokemon>
   ◈ .trace
   ╰──────────⳹
   `
-  let nsfwmenu = `
-  ✦ ───『 *nsfw* 』─── ⚝
-  ◈ .genshin
-  ◈ .swimsuit
-  ◈ .schoolswimsuit
-  ◈ .white
-  ◈ .barefoot
-  ◈ .touhou
-  ◈ .gamecg
-  ◈ .hololive
-  ◈ .uncensored
-  ◈ .sunglasses
-  ◈ .glasses
-  ◈ .weapon
-  ◈ .shirtlift
-  ◈ .chain
-  ◈ .fingering
-  ◈ .flatchest
-  ◈ .torncloth
-  ◈ .bondage
-  ◈ .demon
-  ◈ .wet
-  ◈ .pantypull
-  ◈ .headdress
-  ◈ .headphone
-  ◈ .tie
-  ◈ .anusview
-  ◈ .shorts
-  ◈ .stokings
-  ◈ .topless
-  ◈ .beach
-  ◈ .bunnygirl
-  ◈ .bunnyear
-  ◈ .idol
-  ◈ .vampire
-  ◈ .gun
-  ◈ .maid
-  ◈ .bra
-  ◈ .nobra
-  ◈ .bikini
-  ◈ .whitehair
-  ◈ .blonde
-  ◈ .pinkhair
-  ◈ .bed
-  ◈ .ponytail
-  ◈ .nude
-  ◈ .dress
-  ◈ .underwear
-  ◈ .foxgirl
-  ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
-  ◈ .breast
-  ◈ .twintail
-  ◈ .spreadpussy
-  ◈ .tears
-  ◈ .seethrough
-  ◈ .breasthold
-  ◈ .drunk
-  ◈ .fateseries
-  ◈ .spreadlegs
-  ◈ .openshirt
-  ◈ .headband
-  ◈ .food
-  ◈ .close
-  ◈ .tree
-  ◈ .nipples
-  ◈ .erectnipples
-  ◈ .horns
-  ◈ .greenhair
-  ◈ .wolfgirl
-  ◈ .catgirl
-  ◈ .nsfw
-  ◈ .ass
-  ◈ .boobs
-  ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
-  ╰──────────⳹`
   
   let toolsmenu = `
   ✦ ───『 *tools* 』─── ⚝
@@ -472,12 +301,6 @@ import {
   ◈ .unreg 
   ╰──────────⳹
   `
-  let pluginmenu = `
-  ✦ ───『 *plugin* 』─── ⚝
-  ◈ .plugins
-  ◈ .install <Gist URL>
-  ╰──────────⳹
-  `
 
   const handler = async (m, {
     conn,
@@ -550,9 +373,9 @@ import {
     ╰──────────⳹
    
     乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
+    ⛥ *Bot Name:* Astrobot
     ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
+    ⛥ *Platform:* Linux
     ⛥ *Type:* NodeJs
     ⛥ *Baileys:* Multi Device
     ⛥ *Prefix:* [ *${usedPrefix}* ]
@@ -560,35 +383,6 @@ import {
     ⛥ *Database:*  ${totalreg}
     ╰──────────⳹
     
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
-     ${readMore}
-
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
-  ╭───────⳹
-  │ *1.* Bot Menu
-  │ *2.* Owner Menu
-  │ *3.* Group Menu
-  │ *4.* Fun Menu
-  │ *5.* Reaction Menu
-  │ *6.* Downloader Menu
-  │ *7.* Game Menu
-  │ *8.* Logo Menu
-  │ *9.* Sticker Menu
-  │ *10.* Audio Menu
-  │ *11.* News Menu
-  │ *12.* Economy Menu
-  │ *13.* Anime Menu
-  │ *14.* NSFW Menu
-  │ *15.* Tools Menu
-  │ *16.* AI Menu
-  │ *17.* Religion Menu
-  │ *18.* Plugin Menu
-  ╰───────⳹
  ${readMore}` 
 ;
 
